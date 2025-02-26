@@ -1,19 +1,19 @@
-/* Header Section */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background: linear-gradient(to right, #FF9933, white, #138808);
-  transition: background 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+  transition: background 0.3s ease, transform 0.3s ease; 
 }
 
 .header:hover {
-  transform: scale(1.05); /* Slightly enlarge the header on hover */
-  background: linear-gradient(to right, #FF5722, white, #2E7D32); /* Change gradient on hover */
+  transform: scale(1.05);
+  background: linear-gradient(to right, #FF5722, white, #2E7D32); 
 }
 
-/* Header Title Styling */
+
 .header-title {
   font-size: 2rem; 
   font-weight: bold;
@@ -21,14 +21,14 @@
   color: #000080;
   margin: 5px 0; 
   padding: 5px 10px;
-  transition: color 0.3s ease; /* Add transition for smooth color change */
+  transition: color 0.3s ease; 
 }
 
 .header-title:hover {
-  color: #138808; /* Change title color on hover */
+  color: #138808; 
 }
 
-/* Navigation Menu */
+
 nav ul {
   list-style: none;
   display: flex;
@@ -51,10 +51,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #138808; /* Change link color on hover */
+  color: #138808; 
 }
 
-/* Page Title */
+
 .page-title {
   font-size: 36px;
   text-align: center;
@@ -64,7 +64,7 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
-/* Festival Section */
+
 .festivals-container {
   max-width: 1000px;
   margin: auto;
@@ -89,8 +89,8 @@ nav ul li a:hover {
 }
 
 .festival-item:hover {
-  transform: scale(1.05); /* Slightly enlarge the item on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 .festival-header {
@@ -130,7 +130,7 @@ nav ul li a:hover {
   color: #555;
 }
 
-/* Footer */
+
 .footer {
   text-align: center;
   padding: 15px;
