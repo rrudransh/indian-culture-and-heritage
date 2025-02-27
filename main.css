@@ -7,7 +7,6 @@ body {
   z-index: 1; 
 }
 
-
 .video-container {
   position: absolute;
   top: 0;
@@ -118,15 +117,49 @@ img {
 }
 
 @media (max-width: 768px) {
+
   header {
       flex-direction: column;
       text-align: center;
+      padding: 10px;
   }
+
   nav ul {
       flex-direction: column;
-      padding-top: 10px;
+      align-items: center;
+      gap: 5px;
+      padding: 0;
   }
+
   nav ul li {
-      margin: 5px 0;
+      display: block;
+      width: 100%;
+  }
+
+  nav ul li a {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+  }
+
+  .hero h1 {
+      font-size: 32px;
+  }
+
+  .hero p {
+      font-size: 18px;
+      padding: 0 10px;
+  }
+
+  .explore-btn {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+
+  .video-container video {
+      object-fit: contain;
+      height: auto;
   }
 }
+
