@@ -1,0 +1,131 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  background: linear-gradient(to right, #FF9933, white, #138808);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 8px; 
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s;
+  padding: 5px 10px; 
+}
+
+nav ul li a:hover {
+  color: #138808;
+}
+
+
+.page-title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  color: #BF360C; 
+  margin: 40px 0 20px;
+  text-transform: uppercase;
+}
+
+
+.food-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.food-header {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.food-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #BF360C; 
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.food-subtitle {
+  font-size: 18px;
+  color: #555;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.food-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-item:hover {
+  transform: scale(1.02); 
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.food-item img {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.food-item:hover img {
+  transform: scale(1.05); 
+}
+
+.food-item h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #FF9933;
+}
+
+.food-item p {
+  font-size: 18px;
+  color: #555;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #138808;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;  
+  font-weight: bold;
+  font-family: "Georgia", serif; 
+  color: #000080; 
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
